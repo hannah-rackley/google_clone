@@ -1,0 +1,96 @@
+html {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+p.google {
+    font-size: 100px;
+    font-family: Futura, sans-serif;
+    display: block;
+    letter-spacing: -.04em;
+    margin-bottom: 50px; 
+}
+.blue {
+    color: #4285F4;
+}
+
+.green {
+    color: #34A853;
+}
+
+.yellow {
+    color: #FBBC05;
+}
+
+.red {
+    color: #EA4335;
+}
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #666;
+}
+
+.input_box {
+    width: 500px;
+    height: 40px; 
+    font-size: 30px;
+    box-shadow: 0.3px 4px 1px #F2F2F2;
+}
+
+.input_box_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.submit_buttons {
+    background-color: #F2F2F2;
+    color: #757575;
+    font-weight: bold;
+    border: 1px #F2F2F2;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.submit_buttons:hover {
+    color: #000;
+    border: 1px solid #757575;
+}
+
+p {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+
+a.links:hover {
+    text-decoration: underline;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+
+}
+
+.inline-block {
+    display: inline-block;
+    width: 49%;
+}
