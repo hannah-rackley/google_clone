@@ -1,16 +1,48 @@
-html {
+html, body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
     font-family: Arial, sans-serif;
-    text-align: center;
-    color: #000;
+    margin: 0;
 }
 
-p.google {
-    font-size: 100px;
-    font-family: Futura, sans-serif;
-    display: block;
-    letter-spacing: -.04em;
-    margin-bottom: 50px; 
+.nav {
+    display: flex;
+    font-size: 13.5px;
+    margin-top: 13px;
 }
+
+.spacer {
+    flex: 1;
+}
+
+.links {
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.logo {
+    display: block;
+    font-size: 90px;
+    font-family: Futura, sans-serif;
+    letter-spacing: -.04em;
+    padding: 30px;
+    margin: 0;
+}
+
 .blue {
     color: #4285F4;
 }
@@ -27,70 +59,43 @@ p.google {
     color: #EA4335;
 }
 
-footer {
-    display: flex;
-    background-color: #F2F2F2;
-    margin: 0;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: #666;
+.input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    height: 3em;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 1px -1px #D9DFE0;
+    -webkit-appearance: none;
+    border: .5px solid #D9DFE0;
+    border-radius: 1.5px;
+    font-size: 14px;
 }
 
-.input_box {
-    width: 500px;
-    height: 40px; 
-    font-size: 30px;
-    box-shadow: 0.3px 4px 1px #F2F2F2;
+.input:hover {
+    box-shadow: 1px 2px 1px .5px #D9DFE0;
 }
 
-.input_box_icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.submit_buttons {
+.buttons {
     background-color: #F2F2F2;
     color: #757575;
+    padding: 9px 18px;
     font-weight: bold;
-    border: 1px #F2F2F2;
-    padding: 10px 20px;
+    border: 1px solid #F2F2F2;
     border-radius: 2px;
-    font-size: 15px;
+    font-size: 13.5px;
+    margin: 2px;
+    border: 1px solid white;
 }
 
-.submit_buttons:hover {
+.buttons:hover {
     color: #000;
     border: 1px solid #757575;
 }
-
-p {
-    display: inline-block;
-    padding: 0 8px;
-}
-
-.links {
-    text-decoration: none;
-    color: #000;
-    opacity: 0.75;
-}
-
-a.links:hover {
-    text-decoration: underline;
-}
-
-.left-align {
-    text-align: left;
-}
-
-.right-align {
-    text-align: right;
-
-}
-
-.inline-block {
-    display: inline-block;
-    width: 49%;
+.foot {
+    display: flex;
+    background-color: #F2F2F2;
+    color: #666;
+    font-size: 13.5px;
+    padding: 6.2px;
 }

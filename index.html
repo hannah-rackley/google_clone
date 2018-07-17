@@ -1,50 +1,40 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=dive-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Google Clone</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="inline-block left-align">
-                <p><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header" class="links">About</a></p>
-                <p><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" class="links">Store</a></p>
-            </div>
-            <div class="inline-block right-align">
-                <p><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" class="links">Gmail</a></p>
-                <p><a href="https://www.google.com/imghp?hl=en&tab=wi" class="links">Images</a></p>
-            </div>
-        </header>
-        <p class="google"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <header class="nav">
+        <a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header" class="links">About</a>
+        <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" class="links">Store</a>
+        <div class="spacer"></div>
+        <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" class="links">Gmail</a>
+        <a href="https://www.google.com/imghp?hl=en&tab=wi" class="links">Images</a>
+    </header>
+    <main class="main">
+        <p class="logo"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></p>
         <div>
-           <input type="text" class="input_box"> 
-           <!-- <img src="images/google_mic.png" class="input_box_icon" /> -->
+            <input type="text" class="input">
         </div>
-        <div>
-            <p>
-                <button name="submit" type="submit" value="submit-true" class="submit_buttons">
-                    Google Search
-                </button>
-            </p>
-            <p>
-                <button name="submit" type="submit" value="submit-true" class="submit_buttons">
-                    I'm Feeling Lucky
-                </button>
-            </p>
-        </div>
-        <footer>
-            <div class="inline-block left-align">
-                <p><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="links">Advertising</a></p>
-                <p><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="links">Business</a></p>
-             </div>
-            <div class="inline-block right-align">
-                <p><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1" class="links">Privacy</a></p>
-                <p><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1" class="links">Terms</a></p>
-                <p><a href="https://www.google.com/preferences?hl=en" class="links">Settings</a></p>
-            </div>
-        </footer>
-    </body>
+        <button name="submit" type="submit" value="submit-true" class="buttons">
+            Google Search
+        </button>
+        <button name="submit" type="submit" value="submit-true" class="buttons">
+            I'm Feeling Lucky
+        </button>
+    </main>
+    <footer class="foot">
+        <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="links">Advertising</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="links">Business</a>
+        <div class="spacer"></div>
+        <a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1" class="links">Privacy</a>
+        <a href="https://www.google.com/intl/en_us/policies/terms/?fg=1" class="links">Terms</a>
+        <a href="https://www.google.com/preferences?hl=en" class="links">Settings</a>
+    </footer>
+</body>
 </html>
